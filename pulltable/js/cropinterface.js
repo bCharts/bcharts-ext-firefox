@@ -23,10 +23,10 @@ var cropinterface = {
     // 최초로 꼭!!! 실행되어야 한다~!!!
     init: function () {
         // css 로드
-        var cropinterface_css = chrome.extension.getURL('pulltable/css/cropinterface.css');
+        var cropinterface_css = browser.extension.getURL('pulltable/css/cropinterface.css');
         $(document.body).append('<link name="' + gid_cropinterface + '" href="' + cropinterface_css + '" rel="stylesheet">');
 
-        var excel_css = chrome.extension.getURL('pulltable/css/excel-2000.css');
+        var excel_css = browser.extension.getURL('pulltable/css/excel-2000.css');
         $(document.body).append('<link name="' + gid_cropinterface + '" href="' + excel_css + '" rel="stylesheet">');
 
         $(cropinterface.s_area.html()).appendTo(document.body).hide();
@@ -104,7 +104,7 @@ var cropinterface = {
         id: 'f86fd7c474d44f1994a75e59c5c9476e2a112c2ec3dbcdabbb355801d50a86b3',
 
         html: function () {
-            var close_icon_img = chrome.extension.getURL('pulltable/images/close.png');
+            var close_icon_img = browser.extension.getURL('pulltable/images/close.png');
             return '<img id="' + cropinterface.close_button.id + '" class="ce099188c157a7b77d88e3449cc1911d" src="' + close_icon_img + '">';
         },
 
@@ -304,7 +304,7 @@ var cropinterface = {
         button_width: 20,
 
         html: function () {
-            var ok_icon_img = chrome.extension.getURL('pulltable/images/ok.png');
+            var ok_icon_img = browser.extension.getURL('pulltable/images/ok.png');
             var tag = '<div id="' + cropinterface.ok_button.id + '" ' +
                 'name="' + gid_cropinterface + '" ' +
                 'class="a35115947bae66d81b333c68bafee5d1">';
@@ -335,7 +335,7 @@ var cropinterface = {
         button_width: 20,
 
         html: function () {
-            var cancel_icon_img = chrome.extension.getURL('pulltable/images/cancel.png');
+            var cancel_icon_img = browser.extension.getURL('pulltable/images/cancel.png');
             var tag = '<div id="' + cropinterface.cancel_button.id + '" name="' + gid_cropinterface + '" ' +
                 'class="a35115947bae66d81b333c68bafee5d1">';
             tag += '<img width="' + cropinterface.cancel_button.button_width + 'px" src="' + cancel_icon_img + '" />';
@@ -411,7 +411,7 @@ var cropinterface = {
         id: '0b3ddcdd88f82fe895732eea9f54400bce3379a66fb6fe10b71d762cc3cd550d',
 
         html: function () {
-            var flybee_url = chrome.extension.getURL('pulltable/images/flybeefly.gif');
+            var flybee_url = browser.extension.getURL('pulltable/images/flybeefly.gif');
             var tag = '<div id="' + cropinterface.progress_view.id + '" ' +
                 'name="' + gid_cropinterface + '" ' +
                 'class="d3f47895565cef29ba1fb49dd488fd18">';

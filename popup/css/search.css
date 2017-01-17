@@ -1,0 +1,67 @@
+
+
+.search-field {
+    float: left;
+    width: 200px;
+    height: 30px;
+    margin-top:20px;
+    margin-left:140px;
+    padding: 0 8px;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 16px;
+    color: #888;
+    font-style: italic;
+    font-weight: 400;
+    background: #fff;
+    border: 1px solid #ccc;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#ffffff));
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #ffffff);
+    background-image: -moz-linear-gradient(top, #f5f5f5, #ffffff);
+    background-image: -ms-linear-gradient(top, #f5f5f5, #ffffff);
+    background-image: -o-linear-gradient(top, #f5f5f5, #ffffff);
+    background-image: linear-gradient(top, #f5f5f5, #ffffff);
+    -moz-box-shadow: 0 1px 1px #e2e2e2 inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #e2e2e2 inset, 0 1px 0 #fff;
+    box-shadow: 0 1px 1px #e2e2e2 inset, 0 1px 0 #fff;
+}
+
+.submit-container {
+    float: left;
+    width: 40px;
+    height: 30px;
+    margin-top:20px;
+    margin-left:8px;
+    padding: 0;
+    cursor: pointer;
+    background: #e63c0d;
+    border: 1px solid #d62700;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#f55f15), to(#e63c0d));
+    background-image: -webkit-linear-gradient(top, #f55f15, #e63c0d);
+    background-image: -moz-linear-gradient(top, #f55f15, #e63c0d);
+    background-image: -ms-linear-gradient(top, #f55f15, #e63c0d);
+    background-image: -o-linear-gradient(top, #f55f15, #e63c0d);
+    background-image: linear-gradient(top, #f55f15, #e63c0d);
+    -moz-box-shadow: 0 1px 1px #fa8e1f inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #fa8e1f inset, 0 1px 0 #fff;
+    box-shadow: 0 1px 1px #fa8e1f inset, 0 1px 0 #fff;
+}
+
+.submit {
+    float: left;
+    width: 40px;
+    height: 30px;
+    margin-left: -10px;
+    padding: 0;
+    cursor: pointer;
+    border: 0px solid #000;
+    background: url('http://azmind.com/demo/css3-jquery-search-form/images/magnifier.png') 20px 6px no-repeat;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
